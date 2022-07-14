@@ -42,18 +42,22 @@ C: https://github.com/Reinbert/pca9685 <br>
 ## Compilação e dependências:
 gcc -Wall example.c -o example -lwiringPi -lwiringPiDev -lwiringPiPca9685 -lm <br>
 
+# State machine
+
+
 ## 2DO
+- Translate readme.md to english
 - mapear unidade no computador como pasta na Raspberry
 - transferir arquivos de trabalho do cartão SD para o diretório no computador
 - Guardar uma imagem do cartão SD
 - Montar uma política de atualização periódica dessa imagem
-- Subir os arquivos de trabalho no Git
-- procurar biblioteca para o driver (ou desenvolver)
 - Consultar material da UC de manipuladores para revisar os parâmetros de output da IMU, principalmente os ângulos
 - Montar máquina de estados básica (timer, input, output, motor drive etc)
-- portar para C
 
 ## DONE
+- portar para C
+- Subir os arquivos de trabalho no Git
+- procurar biblioteca para o driver (ou desenvolver)
 - refresh rate IMU: de 20Hz a 40Hz 
 - 	"dtparam=i2c_arm_baudrate=10000"  > 100000 > 400000
 - bias Gyroscopio: 10s => 0,0
