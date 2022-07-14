@@ -20,7 +20,7 @@ Raspberry Pi Zero |	BNO055
 3 (SDA1) |	SDA
 5 (SCL1) |	SCL
 
-![alt text]()
+![alt text](https://github.com/oarcanjomiguel/flapControl/blob/main/BNO055-Pinout.jpg "BNO055 board")
 
 ## PCA9685
 
