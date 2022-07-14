@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS= -O3 -Wall -g
 LIBS= -lm -lwiringPi -lwiringPiDev -lwiringPiPca9685
 
-flapControl: example.c
-	$(CC) -o flapControl ${LIBS}
+example: example.o
+	$(CC) -o example example.o ${LIBS}
 
 # gcc -Wall example.c -o example -lwiringPi -lwiringPiDev -lwiringPiPca9685 -lm 
