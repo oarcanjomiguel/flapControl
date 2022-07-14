@@ -34,8 +34,7 @@ float map(float input, float min, float max)
 	return (input * max) + (1 - input) * min;
 }
 
-
-int main(void)
+int followAngle(void)
 {
 	int res;
 	printf("Flap control example\n");
@@ -130,4 +129,9 @@ int main(void)
 	}
 
 	return 0;
+}
+
+int main(void)
+{
+	followAngle();
 }
