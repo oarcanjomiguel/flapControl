@@ -31,5 +31,6 @@ Raspberry Pi Zero | PCA9685
 3 (SDA1) | SDA
 5 (SCL1) | SCL
 
+![alt text](https://github.com/oarcanjomiguel/flapControl/blob/main/pca9685.png "PCA9685 board")
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
