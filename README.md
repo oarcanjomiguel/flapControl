@@ -1,10 +1,10 @@
 # flapControl
 Flap control algorithm in C using a Raspberry Pi, IMU BNO055, Servo driver PCA9685
 
-Introdução
+## Introdução
 Este documento destina-se a ser um guia para o uso da IMU BNO055 conectada a uma Raspberry Pi Zero no âmbito do projeto de robô terrestre com extensão aérea de um UAV de asa fixa a ser desenvolvido no INESC TEC Porto.
 
-Hardware
+## Hardware
 - Raspberry Pi zero 1.3
 - IMU BNO055
 - PWM driver PCA9685
