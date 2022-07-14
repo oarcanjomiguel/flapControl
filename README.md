@@ -20,6 +20,8 @@ Raspberry Pi Zero |	BNO055
 3 (SDA1) |	SDA
 5 (SCL1) |	SCL
 
+![alt text]()
+
 ## PCA9685
 
 Raspberry Pi Zero | PCA9685
