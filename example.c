@@ -12,6 +12,7 @@
 #include <time.h>
 #include "i2c_bno055.c"
 #include "example.h"
+#include "timer.c"
 //#include "getbno055.h"
 
 
@@ -133,5 +134,8 @@ int followAngle(void)
 
 int main(void)
 {
-	followAngle();
+	//followAngle();
+	timer_setup();
+	while(1);
+	
 }
